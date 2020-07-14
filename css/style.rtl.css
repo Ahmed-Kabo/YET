@@ -1,0 +1,168 @@
+
+body
+{
+    font-family: 'Cairo', sans-serif ;
+}
+[class*='col-']
+{
+    float: right ;
+
+}
+/* start navbar */
+
+nav .mobile-nav.transfer span:first-child
+{
+    transform: rotate(-45deg) scale(1.2) translateY(-12px) translateX(-16px);
+}
+
+nav .mobile-nav.transfer span:last-child
+{
+   transform: rotate(45deg) scale(1.2) translateY(12px) translateX(-16px);
+}
+
+header  nav .links  li
+{
+    float: right;    
+}
+@media (max-width:991px) 
+{
+
+     nav .logo
+    {
+        float: left ;
+        width: 100px;
+    }
+}
+/*start fixed navbar at media query */
+@media (max-width:991px) 
+{
+    
+    .search-and-nav .content-search
+    {
+
+        right: 0;
+    }
+
+}
+
+
+/*end  fixednavbar at media query */
+
+/* --------- start slideshow ---------*/
+
+.mySlides .text
+{
+    top: 50%;
+    right: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    
+}
+@media(max-width:991px)
+{
+    .mySlides .text
+    {
+       
+        
+
+    }
+}
+
+/* --------- end slideshow ---------*/
+/* ~~~~~~~~ ||| start features |||  ~~~~~~~~~ */
+
+.featuers .info
+{
+
+    left: -50%;
+    
+}
+.featuers .info h2
+{
+    
+}
+.featuers .info p
+{
+
+    text-align: right;
+    
+    
+}
+
+
+.f-img
+{
+
+    
+}
+
+
+/* ~~~~~~~~ ||| e n d features ||| ~~~~~~~~~ */
+
+/* ~~~~~~~~~ start our hotels ~~~~~~~*/
+
+
+
+
+
+
+
+
+
+.hotels  .content-hotel .hotel-info
+{
+
+    float: right;  
+    font-size: 16px;
+}
+.hotel-info .title p
+{
+
+    font-size: 14px;
+
+}
+
+.content-hotel .hotel-info div  h3
+{
+
+    float: right;
+    text-align: right;
+
+}
+
+
+.content-hotel .hotel-info .rating span
+{
+    float: left;   
+}
+
+
+/* ~~~~~~~~~ e n d our hotels ~~~~~~~*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
